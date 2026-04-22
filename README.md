@@ -1,11 +1,14 @@
 # ML Pose Estimation Pipeline for Behavioral Tracking
-### Overview
-Investigated the impact of hunger on social pain behaviors by leveraging machine learning–based pose estimation to automate behavioral analysis, reducing manual scoring time, minimizing observer bias, and uncovering data-driven behavioral patterns across conditions.
+### The goal of this project is to analyze how hunger impacts social behavior by identifying measurable changes in movement patterns during mouse interactions.
+___
+This project focuses on a behavioral experiment where one mouse is exposed to a pain stimulus and interacts with a bystander mouse. We compare two conditions: fed vs. food-deprived bystanders, to understand how internal state influences behavior.
 
-### Quick Snapshot: Data Visualizations
-Key visualizations highlighting behavioral differences across conditions:
-- **Movement Trajectories & Spatial Density:** Visualize how mice navigate the enclosure, showing differences in exploration patterns between sated and food-deprived conditions.
-- **Behavioral Distribution Comparison:** Quantifies changes in behavior frequency across conditions, with statistically significant correlations observed between the groups.
+Traditional analysis of these interactions relies on manual video scoring, which is time-intensive (~2+ hours per video), difficult to scale, and prone to human bias. To address this, we built an automated pipeline using pose estimation data to track movement and extract behavioral metrics.
+
+The analysis focuses on two primary objectives:
+Identify differences in movement and interaction patterns between fed and food-deprived conditions
+Evaluate whether automated tracking can replace manual scoring and uncover consistent behavioral patterns
+___
 
 <p align="center">
   <img src="images/SLEAP-Visuals.png" width="100%">
