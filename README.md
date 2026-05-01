@@ -3,7 +3,7 @@
 ___
 This project focuses on a behavioral experiment where one mouse is exposed to a pain stimulus and interacts with a bystander mouse. We compare two conditions: fed vs. food-deprived bystanders, to understand how internal state influences behavior.
 
-###% Problem Statement
+#### Problem Statement
 Traditional analysis of these interactions relies on manual video scoring, which is time-intensive (~2+ hours per video), difficult to scale, and prone to human bias. To address this, we built an automated pipeline using pose estimation data to track movement and extract behavioral metrics.
 
 #### Objectives
@@ -29,7 +29,7 @@ Following the introduction of a pain stimulus, both mice show clear changes in m
 In contrast, food-deprived bystanders exhibit increased movement and no longer align with the pain mouse’s trajectory, indicating a disruption in typical social tracking behavior.
 
 <p align="center">
-  <img src="" width="100%">
+  <img src="images/heatmaps.png" width="100%">
 </p>
 
 Despite visible coordination in the fed condition, **no significant difference in physical distance** was observed between fed bystanders and pain mice. However, food-deprived bystanders maintain **significantly greater distance** from their injured partner, suggesting reduced social interaction.
@@ -61,7 +61,8 @@ Food-deprived bystanders exhibit a higher frequency of **exploratory and high-mo
 <p align="center">
   <img src="" width="100%">
 </p>
-___
+_________________
+
 ### Recommendations 
 **Expand feature set beyond movement metrics**
 Investigate other interaction-specific features (e.g., proximity duration, interaction frequency, behavioral clustering outputs) to better capture the drivers of social behavior since proximity alone did not influence our food-deprived bystander.
