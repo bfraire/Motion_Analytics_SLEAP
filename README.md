@@ -2,7 +2,7 @@
 <p align="center">
   <img src="images/sleap_movie.gif" width="100%">
 </p>
-###The goal of this project is to analyze how hunger impacts social behavior by identifying measurable changes in movement patterns during mouse interactions.
+The goal of this project is to analyze how hunger impacts social behavior by identifying measurable changes in movement patterns during mouse interactions.
 ___
 This project focuses on a behavioral experiment where one mouse is exposed to a pain stimulus and interacts with a bystander mouse. We compare two conditions: fed vs. food-deprived bystanders, to understand how internal state influences behavior.
 
