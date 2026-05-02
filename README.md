@@ -1,4 +1,7 @@
 # ML Pose Estimation Pipeline for Behavioral Tracking
+<p align="center">
+  <img src="images/sleap_movie.gif" width="100%">
+</p>
 ### The goal of this project is to analyze how hunger impacts social behavior by identifying measurable changes in movement patterns during mouse interactions.
 ___
 This project focuses on a behavioral experiment where one mouse is exposed to a pain stimulus and interacts with a bystander mouse. We compare two conditions: fed vs. food-deprived bystanders, to understand how internal state influences behavior.
@@ -35,7 +38,7 @@ In contrast, food-deprived bystanders exhibit increased movement and no longer a
 Despite visible coordination in the fed condition, **no significant difference in physical distance** was observed between fed bystanders and pain mice. However, food-deprived bystanders maintain **significantly greater distance** from their injured partner, suggesting reduced social interaction.
 
 <p align="center">
-  <img src="" width="100%">
+  <img src="images/distance-apart.png" width="100%">
 </p>
 
 
@@ -44,13 +47,13 @@ Despite visible coordination in the fed condition, **no significant difference i
 In the fed condition, both pain and bystander mice show **reduced movement**, with lower total distance traveled and decreased average velocity during interaction.
 
 <p align="center">
-  <img src="" width="100%">
+  <img src="images/movement-metrics-1.png" width="100%">
 </p>
 
 In contrast, food-deprived bystanders travel **significantly farther and at higher average speeds**, indicating a shift toward increased independent movement.
 
 <p align="center">
-  <img src="" width="100%">
+  <img src="images/movement-metrics-2.png" width="100%">
 </p>
 
 
@@ -59,7 +62,7 @@ In contrast, food-deprived bystanders travel **significantly farther and at high
 Food-deprived bystanders exhibit a higher frequency of **exploratory and high-mobility behaviors** (e.g., walking, turning, running), reflecting a shift away from social engagement toward self-directed activity.
 
 <p align="center">
-  <img src="" width="100%">
+  <img src="images/kpms-syllables.gif" width="100%">
 </p>
 _________________
 
