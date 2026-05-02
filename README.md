@@ -2,7 +2,7 @@
 <p align="center">
   <img src="images/sleap_movie.gif" width="100%">
 </p>
-### The goal of this project is to analyze how hunger impacts social behavior by identifying measurable changes in movement patterns during mouse interactions.
+###The goal of this project is to analyze how hunger impacts social behavior by identifying measurable changes in movement patterns during mouse interactions.
 ___
 This project focuses on a behavioral experiment where one mouse is exposed to a pain stimulus and interacts with a bystander mouse. We compare two conditions: fed vs. food-deprived bystanders, to understand how internal state influences behavior.
 
@@ -14,6 +14,35 @@ The analysis focuses on two primary objectives:
 Identify differences in movement and interaction patterns between fed and food-deprived conditions
 Evaluate whether automated tracking can replace manual scoring and uncover consistent behavioral patterns
 ___
+#### Pipelines
+This project includes two primary analysis pipelines for extracting and analyzing behavioral data from pose estimation outputs.
+
+---
+
+### 🔹 Kinematic Analysis Pipeline
+
+Processes pose estimation data to extract movement-based features such as trajectory, velocity, and distance traveled.
+
+- **Input:** SLEAP-generated pose data (x/y coordinates)  
+- **Processing:** Data cleaning, filtering, and feature engineering (NumPy, Pandas)  
+- **Output:** Movement metrics used for behavioral comparison  
+
+📓 [View Notebook](SLEAP_KPMS/masterKinematicAnalysis.ipynb)
+
+---
+
+### 🔹 Behavioral Clustering Pipeline (KPMS)
+
+Applies unsupervised learning to identify recurring behavioral patterns (“syllables”) from pose dynamics.
+
+- **Input:** Processed pose/trajectory data  
+- **Processing:** Keypoint-MoSeq (KPMS) for clustering and sequence modeling  
+- **Output:** Behavioral states and transition patterns  
+
+📓 [View Notebook](URC2025/KPMS_Analysis/KPMS-Pipeline.ipynb)
+
+---
+
 ### Insights Summary
 ___
 #### Snapshot 
